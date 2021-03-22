@@ -42,7 +42,7 @@ setTimeout(() => {
                 <h3 class="text-dark m-0" style="overflow:hidden;overflow-wrap: break-word;word-wrap: break-word;" href="#">{{$item->title}}</h3>
               </h3>
               <div class="mb-1 text-muted">Price:{{ $item->price }}</div>
-              <p style="overflow:hidden;overflow-wrap: break-word;word-wrap: break-word;" class="card-text mb-auto">
+              <p style="overflow:hidden;overflow-wrap: break-word;word-wrap: break-word;text-align:center;" class="card-text mb-auto">
 Description:<br>
 {{ $item->body }}
 </p>
